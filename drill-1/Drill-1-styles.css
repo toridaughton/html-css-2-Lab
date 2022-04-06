@@ -1,0 +1,44 @@
+*{
+    margin: 50px;
+}
+
+header {
+    position: fixed;
+    height: 22vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.sidebar {
+    position: fixed;
+    bottom: 0px;
+    background-color: darkgray;
+    height: 78vh;
+    width: 10vw;
+}
+
+p {
+    background-color: whitesmoke;
+}
+
+#right-sidebar {
+    background-color: darkgrey;
+    position: fixed;
+    right: 0px;
+    z-index: 2;
+}
+
+body section {
+    background-color: azure;
+    height: 1500px;
+}
+
+
+footer {
+    position: fixed;
+    left: 10vw;
+    bottom: 0px;
+    height: 10vh;
+    width: 80vw;
+    background-color: black;
+}

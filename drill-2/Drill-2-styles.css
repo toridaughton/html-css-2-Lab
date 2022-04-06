@@ -1,0 +1,83 @@
+/* * {
+    margin: 50px, 100px;
+} */
+
+.top-box-section {
+    position: relative;
+    margin-top: 5vh;
+    margin-left: 10vw;
+    width: 80vw;
+    height: 25vh;
+    border: solid black 5px;
+}
+
+#purple-box {
+    background-color: blueviolet;
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+    height: 17vh;
+    width: 6vh;
+}
+
+#green-box {
+    background-color: darkgreen;
+    position: absolute;
+    top: 15px;
+    left: 145px;
+    width: 500px;
+    height: 22vh;
+}
+
+#blue-circle {
+    background-color: lightskyblue;
+    position: absolute;
+    top: 15px;
+    left: 700px;
+    height: 211px;
+    width: 211px;
+    border-radius: 50%;
+}
+
+.middle-box-section {
+    margin: 25px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    margin-left: 10vw;
+    width: 80.5vw;
+    height: 35vh;
+    border: dotted black 5px;
+    box-sizing: border-box;
+}
+
+#tan-box {
+    background-color: lightgoldenrodyellow;
+    height: 20vh;
+    width: 70vw;
+    box-shadow: 10px 10px 5px black;
+}
+
+.bottom-box-section {
+    margin: 75px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 35px;
+    margin-left: 550px;
+    height: 400px;
+    width: 750px;
+    box-shadow:  2px 2px 5px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+
+#hello-friends-box {
+    padding: 115px;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+}
